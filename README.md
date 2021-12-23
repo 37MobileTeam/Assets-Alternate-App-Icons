@@ -6,6 +6,24 @@ Xcode13 配置多套 App 图标的方法 --- AppStore 图标 A/B Test 实践
 
 ![Xcode13-Alternatelcons-0](images/Xcode13-Alternatelcons-0.png)
 
+多套图标测试的配置总结：
+
+1. 使用 Xcode 13
+2. 在 `Assets.xcassets` 创建多套测试的图标，并添加对应的图标
+3. 将 `Include all app icon assets` 设置为 YSE
+
+
+> 注意事项： 
+> 1、图标不要有透明通道
+> 2、所以有图标格式要用 PNG （不能用 JPG）
+
+
+项目效果示例：
+![Xcode13-Alternatelcons-8](images/Xcode13-Alternatelcons-8.jpg)
+
+
+# 使用教程
+
 > 最近苹果推出 App Store 产品页的新功能，其中在 app 产品页的不同版本上使用不同的图标，通过  A/B Test 找出效果最佳的版本。但是苹果文档并没有给出详细的教程，怎么在 Xcode 中集成多套图标呢？这就是本文要讲解的内容，适合 iOS 技术开发同学阅读。
 
 
