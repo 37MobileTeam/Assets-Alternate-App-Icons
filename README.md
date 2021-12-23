@@ -2,9 +2,9 @@
 
 Xcode13 配置多套 App 图标的方法 --- AppStore 图标 A/B Test 实践
 
-背景文章：[Xcode13 配置多套 App 图标的方法 --- AppStore 图标 A/B Test 实践 - 掘金](https://juejin.cn/post/7044748618078617613#heading-9)
+背景文章：[Xcode13 配置多套 App 图标的方法 --- AppStore 图标 A/B Test 实践 - 掘金](https://juejin.cn/post/7044748618078617613)
 
-![Xcode13-Alternatelcons-0](images/Xcode13-Alternatelcons-0.jpg)
+![Xcode13-Alternatelcons-0](images/Xcode13-Alternatelcons-0.png)
 
 > 最近苹果推出 App Store 产品页的新功能，其中在 app 产品页的不同版本上使用不同的图标，通过  A/B Test 找出效果最佳的版本。但是苹果文档并没有给出详细的教程，怎么在 Xcode 中集成多套图标呢？这就是本文要讲解的内容，适合 iOS 技术开发同学阅读。
 
